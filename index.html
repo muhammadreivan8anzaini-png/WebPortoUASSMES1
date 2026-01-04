@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enza | Owner Porto</title>
+  <link rel="icon" href="enza.png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="#" onclick="showSection('home')">Home</a>
+    <a href="#" onclick="showSection('profile')">Profile</a>
+    <a href="#" onclick="showSection('project')">Karya & Project</a>
+    <a href="#" onclick="showSection('media')">Media</a>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="content">
+
+  <section id="home" class="active">
+  <div class="card home-wrapper">
+    <img src="pfp.jpeg" alt="Foto Profil" class="profile-img" />
+    <div class="home-text">
+      <h1>Selamat Datang di Website Portofolio Saya</h1>
+      <p>Halo, saya <b>Muhammad Reivan Anzaini</b>, mahasiswa Sistem Informasi yang tertarik pada pengembangan web dan teknologi.</p>
+    </div>
+  </div>
+</section>
+
+  <section id="profile">
+    <h1>Profile Saya</h1>
+    <div class="card">
+      <p><b>Nama:</b> Muhammad Reivan Anzaini</p>
+      <p><b>Program Studi:</b> Sistem Informasi</p>
+      <p><b>Kampus:</b> Pamulang University</p>
+    </div>
+  </section>
+
+  <section id="project">
+  <h1>Karya & Project</h1>
+
+  <div class="card project-item">
+    <h3>Website Pertama</h3>
+    <img src="pweb2.jpeg" alt="Project Bio Link" />
+    <p>Website di atas adalah website pertama saya saat pertamakali saya latihan website di awal semester saya.</p>
+  </div>
+
+  <div class="card project-item">
+    <h3>Portofolio pertama</h3>
+    <img src="pweb3.jpeg" alt="Project Landing Page" />
+    <p>Portofolio responsif untuk menampilkan semua tentang.</p>
+  </div>
+
+  <div class="card project-item">
+    <h3>Website Bio</h3>
+    <img src="pweb4.jpeg" alt="Project Portofolio" />
+    <p>Website terakhir ini adalah bio saya dengan HTML, CSS, dan JavaScript yang sudah di hosting dan saya pakai untuk Instagram saya. Berikut link nya.</p>
+    <a href="https://muhammadreivan8anzaini-png.github.io/bio/" target="_blank">Lihat Bio</a>
+  </div>
+</section>
+
+  <section id="media">
+  <h1>Media</h1>
+  <div class="card media-grid">
+
+    <!-- GAMBAR -->
+    <div class="media-item">
+      <h3>Gambar</h3>
+      <img src="HAHA.jpeg" alt="Foto Saya" />
+    </div>
+
+    <!-- VIDEO -->
+    <div class="media-item">
+      <h3>Video</h3>
+      <video controls>
+        <source src="jj.mp4" type="video/mp4" />
+        Browser tidak mendukung video.
+      </video>
+    </div>
+
+    <!-- AUDIO -->
+    <div class="media-item">
+      <h3>Audio</h3>
+      <audio controls>
+        <source src="error.mpeg" type="audio/mpeg" />
+        Browser tidak mendukung audio.
+      </audio>
+    </div>
+
+    <!-- DOKUMEN -->
+    <div class="media-item">
+      <h3>Dokumen</h3>
+      <a href="CV Muhammad Reivan Anz.pdf" target="_blank">📄 Lihat CV</a>
+    </div>
+
+  </div>
+</section>
+
+    </main>
+
+  <footer>
+    <p>© 2026 Muhammad Reivan Anzaini</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
